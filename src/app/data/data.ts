@@ -12,14 +12,16 @@ import type {
 /* ------------------------------ Categorías ------------------------------ */
 
 export const CATEGORIES: Category[] = [
-  { id: 'hamburguesas', name: 'Hamburguesas', icon: '🍔', image: IMG.burger },
-  { id: 'pizza', name: 'Pizza', icon: '🍕', image: IMG.pizza },
   { id: 'criolla', name: 'Comida criolla', icon: '🍲', image: IMG.criollo },
-  { id: 'japonesa', name: 'Japonesa', icon: '🍣', image: IMG.sushi },
-  { id: 'mexicana', name: 'Mexicana', icon: '🌮', image: IMG.tacos },
-  { id: 'saludable', name: 'Saludable', icon: '🥗', image: IMG.salad },
-  { id: 'postres', name: 'Postres', icon: '🍰', image: IMG.cake },
-  { id: 'cafe', name: 'Café y brunch', icon: '☕', image: IMG.coffee },
+  { id: 'marina', name: 'Marina y cebichería', icon: '🐟', image: IMG.shrimp },
+  { id: 'chifa', name: 'Chifa', icon: '🥡', image: IMG.thai },
+  { id: 'polleria', name: 'Pollería', icon: '🍗', image: IMG.bbq },
+  { id: 'pizzeria', name: 'Pizzería', icon: '🍕', image: IMG.pizza },
+  { id: 'nikkei', name: 'Nikkei', icon: '🍣', image: IMG.sushi },
+  { id: 'vegana', name: 'Vegana y saludable', icon: '🥗', image: IMG.salad },
+  { id: 'cafeteria', name: 'Café y postres', icon: '☕', image: IMG.coffee },
+  { id: 'comida-rapida', name: 'Comida rápida', icon: '🍔', image: IMG.burger },
+  { id: 'novoandina', name: 'Novoandina', icon: '🥩', image: IMG.steak },
 ];
 
 /* ------------------------------ Restaurantes ------------------------------ */
