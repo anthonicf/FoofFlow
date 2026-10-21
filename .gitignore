@@ -1,0 +1,66 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node dependencies
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Angular CLI cache & temporary files
+/.angular
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.history/*
+
+# Visual Studio Code
+.vscode/
+
+# Database dumps & SQL scripts (para mantener el frontend limpio)
+*.sql
+*.dump
+
+# Logs & testing
+logs
+*.log
+/connect.lock
+/coverage
+/.nyc_output
+/libpeerconnection.log
+testem.log
+/typings
+__screenshots__/
+.sass-cache/
+
+# System and temporary files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
